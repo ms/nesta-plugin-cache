@@ -22,7 +22,7 @@ Expires and Expires Type fields.
   gem.name          = "nesta-plugin-cache"
   gem.require_paths = ["lib"]
   gem.version       = Nesta::Plugin::Cache::VERSION
-  gem.add_dependency("nesta", "~> 0.9.11")
-  gem.add_dependency("sinatra", "~> 1.2")
+  gem.add_dependency("nesta", ">= 0.9.11")
+  gem.add_dependency("sinatra", ">= 1.2")
   gem.add_development_dependency("rake")
 end
